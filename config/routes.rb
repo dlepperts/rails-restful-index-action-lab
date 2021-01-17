@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  get 'students/:id', to: 'students#index'
-  #resources :posts, only: :show  
+  resources :students, only: :index
 end
